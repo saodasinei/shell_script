@@ -1,0 +1,2 @@
+hadoop->NameNode_SecondaryNameNode_DataNode_ResourceManager_NodeManager;start-dfs.sh_start-yarn.sh
+hive->HiveMetaStore_HiveServer2;nohup#hive#--service#metastore>/dev/null#2>&1#&_nohup#hive#--service#hiveserver2>/dev/null#2>&1#&

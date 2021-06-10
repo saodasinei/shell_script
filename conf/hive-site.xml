@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+	<configuration>
+		  <property>
+			<name>javax.jdo.option.ConnectionURL</name>
+			<value>jdbc:mysql://localhost:3306/hive312?createDatabaseIfNotExist=true</value>
+			<description>connect to mysql for hive metastore</description>
+		  </property>
+		  <property>
+			<name>javax.jdo.option.ConnectionDriverName</name>
+			<value>com.mysql.jdbc.Driver</value>
+			<description>driver for mysql</description>
+		  </property>
+		  <property>
+			<name>javax.jdo.option.ConnectionUserName</name>
+			<value>root</value>
+			<description>username to mysql</description>
+		  </property>
+		  <property>
+			<name>javax.jdo.option.ConnectionPassword</name>
+			<value>password</value>
+			<description>password to mysql</description>
+		  </property>
+	</configuration>
