@@ -1,0 +1,2 @@
+hive->KILL->HiveMetaStore,HiveServer2
+hadoop->STOP->NameNode,SecondaryNameNode,DataNode@stop-dfs.sh;ResourceManager,NodeManager@stop-yarn.sh
